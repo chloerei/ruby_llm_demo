@@ -1,24 +1,14 @@
-# README
+# Use for debug
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+$ bin/rails ruby_llm:load_models
+bin/rails aborted!
+NameError: uninitialized constant RubyLLM::ActiveRecord (NameError)
 
-Things you may want to cover:
+    model_class = RubyLLM::ActiveRecord::Model
+                         ^^^^^^^^^^^^^^
+Did you mean?  ActiveModel
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Tasks: TOP => ruby_llm:load_models
+(See full trace by running task with --trace)
+```
