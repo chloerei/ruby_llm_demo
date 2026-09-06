@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/crmne/ruby_llm.git
-  revision: be80b6f1e9c5ea77986a9f69f065ec62e464314a
+  revision: c788a17fd75dde544e5909eec1bf7a435c1980ae
   branch: main
   specs:
     ruby_llm (1.16.0)
@@ -10,7 +10,7 @@ GIT
       faraday-multipart (>= 1)
       faraday-net_http (>= 1)
       faraday-retry (>= 1)
-      marcel (~> 1)
+      marcel (>= 1.0, < 3)
       schematist (~> 1.1)
       zeitwerk (~> 2)
 
